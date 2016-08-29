@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_css">
+    <content_css action="INSERT_OR_UPDATE">
+        <name>application_outage-style.css</name>
+        <style>.application_outage_dashboard {&#13;
+	padding: 5px;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .overall {&#13;
+	display: block;&#13;
+	color: #000;&#13;
+	padding: 10px;&#13;
+	text-decoration: none;&#13;
+	font-size: 16px;&#13;
+	margin-bottom: 30px;&#13;
+	border: 1px solid rgba(0, 0, 0, 0.15);&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .overall:hover {&#13;
+	&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .overall.green {&#13;
+	background-color: #65fe65;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .overall.yellow {&#13;
+	background-color: #ff6;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .overall.red {&#13;
+	background-color: #ff8484;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .section {&#13;
+	border-right: 1px solid rgba(0, 0, 0, 0.15);&#13;
+	border-left: 1px solid rgba(0, 0, 0, 0.15);&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .section:last-of-type {&#13;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .section .text {&#13;
+	color: #000;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .section .sectionHeader {&#13;
+	display: block;&#13;
+	position: relative;&#13;
+	padding: 5px 10px;&#13;
+	font-size: 15px;&#13;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);&#13;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .section .sectionHeader .fa {&#13;
+	position: absolute;&#13;
+	right: 11px;&#13;
+	font-size: 20px;&#13;
+	text-shadow: 0px 0px 0px #000;&#13;
+	display: none;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .section .sectionHeader.green {&#13;
+	background-color: #65fe65;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .section .sectionHeader.yellow {&#13;
+	background-color: #ff6;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .section .sectionHeader.red {&#13;
+	background-color: #ff8484;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .appRow {&#13;
+	display: block;&#13;
+	position: relative;&#13;
+	padding: 5px 30px 5px 10px;&#13;
+	text-decoration: none;&#13;
+	border-bottom: 1px solid #b1b1b1;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .appRow:nth-child(2n+1) {&#13;
+	background-color: #eee;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .appRow:last-child {&#13;
+	border-bottom: 0px;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .appRow:hover {&#13;
+	background-color: #eee;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .appRow .fa {&#13;
+	position: absolute;&#13;
+	right: 11px;&#13;
+	font-size: 20px;&#13;
+	text-shadow: 0px 0px 1px #000;&#13;
+}&#13;
+&#13;
+/* Operational */&#13;
+.application_outage_dashboard .appRow.green .fa {&#13;
+	color: #65fe65;&#13;
+}&#13;
+&#13;
+.application_outage_dashboard .appRow.yellow .fa {&#13;
+	color: #ff6;&#13;
+}&#13;
+&#13;
+/* Non-Operational */&#13;
+.application_outage_dashboard .appRow.red .fa {&#13;
+	color: #ff8484;&#13;
+}&#13;
+&#13;
+/* Pending */&#13;
+.application_outage_dashboard .appRow.grey .fa {&#13;
+	color: #a1a1a1;&#13;
+}</style>
+        <sys_class_name>content_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-08-19 20:12:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ccd325924f112200d3c622d18110c740</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>application_outage-style.css</sys_name>
+        <sys_package display_value="RYG Dashboard" source="x_8488_ryg_dshbrd">d560a9124f112200d3c622d18110c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RYG Dashboard">d560a9124f112200d3c622d18110c703</sys_scope>
+        <sys_update_name>content_css_ccd325924f112200d3c622d18110c740</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-19 20:12:52</sys_updated_on>
+        <type>local</type>
+        <url/>
+    </content_css>
+</record_update>
